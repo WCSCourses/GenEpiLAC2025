@@ -41,7 +41,7 @@ After attending the course, participants should be able to:
 
 | Course Date | Course Title | Location |Citation DOI |
 |-------------|--------------|----------|-------------|
-| 16–21 April 2023 | [Genomics & Epidemiological Surveillance of Bacterial Pathogens - Latin America and the Caribbean](https://coursesandconferences.wellcomeconnectingscience.org/our-events/past-events/) | Asunción, Paraguay |Citation DOI |
+| 16–21 April 2023 | [Genomics & Epidemiological Surveillance of Bacterial Pathogens - Latin America and the Caribbean](https://coursesandconferences.wellcomeconnectingscience.org/our-events/past-events/) | Asunción, Paraguay |[![DOI](https://zenodo.org/badge/833162816.svg)](https://zenodo.org/doi/10.5281/zenodo.12806771) |
 | 21–26 July 2024  | [Genomics & Epidemiological Surveillance of Bacterial Pathogens - Latin America and the Caribbean](https://coursesandconferences.wellcomeconnectingscience.org/event/genomics-epidemiological-surveillance-of-bacterial-pathogens-latin-america-and-the-caribbean-20240721/) | San José, Costa Rica|Citation DOI |
 
 ******
