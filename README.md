@@ -2,11 +2,11 @@
 
 # Genomics and Epidemiological Surveillance of Bacterial Pathogens - Latin America and the Caribbean
 
-### 21–26 July 2024, San José, Costa Rica
+### 6–11 July 2025, San José, Costa Rica
 
-[Wellcome Connecting Science Course Run Website Link](https://coursesandconferences.wellcomeconnectingscience.org/event/genomics-epidemiological-surveillance-of-bacterial-pathogens-latin-america-and-the-caribbean-20240721/) <br /> 
-[Course Time Table 2024](https://github.com/WCSCourses/GenEpiLAC2024/blob/main/Manuals/Timetable.pdf) <br /> 
-[Course Manual](https://github.com/WCSCourses/GenEpiLAC2024/blob/main/Manuals/Manual_main.md)
+[Wellcome Connecting Science Course Run Website Link]() <br /> 
+[Course Time Table 2025]() <br /> 
+[Course Manual]()
 
 Learn how to apply genomics to epidemiological surveillance of bacterial pathogens and public health in Latin America
 
