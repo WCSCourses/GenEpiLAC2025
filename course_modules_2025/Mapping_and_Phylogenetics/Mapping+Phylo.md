@@ -5,7 +5,7 @@
 
 <br>
 
-# Mapping and Phylogenetics - Costa Rica 2024 <!-- omit in toc -->
+# Mapping and Phylogenetics - Costa Rica 2025 <!-- omit in toc -->
 
 ### Module Lead: Mat Beale <!-- omit in toc -->
 <br>

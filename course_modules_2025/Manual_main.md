@@ -1,7 +1,7 @@
 <img src="https://coursesandconferences.wellcomeconnectingscience.org/wp-content/themes/wcc_courses_and_conferences/dist/assets/svg/logo.svg" width="300" height="50"> 
 
 # Genomics and Epidemiological Surveillance of Bacterial Pathogens - Latin America and the Caribbean
-## Course Manual Costa Rica 2024
+## Course Manual Costa Rica 2025
 
 - Genomic Capacity Development for Public Health Settings 
 - World Café: Translating Genomics into Public Health Action
