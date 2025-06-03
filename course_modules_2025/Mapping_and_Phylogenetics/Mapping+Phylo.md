@@ -839,7 +839,7 @@ You should now see a tree coloured by your fastbaps groups. You can use the togg
 END
 
 
-[<<< Go back to Manual Contents Page](https://github.com/WCSCourses/GenEpiLAC2024/blob/main/Manuals/Manual_main.md)
+[<<< Go back to Manual Contents Page](https://github.com/WCSCourses/GenEpiLAC2025/blob/main/course_modules_2025/Manual_main.md)
 
 <br>
 
