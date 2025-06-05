@@ -44,7 +44,11 @@ Many tools are installed in their own Conda environments to ensure version compa
 
 ```bash
 conda activate <tool-env-name>
+```
 
+```bash
+conda deactivate 
+```
 
 ## Informatics Set-Up
 For installation and setup, please refer to the following guides:
