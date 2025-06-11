@@ -12,7 +12,7 @@
 | [snippy](https://github.com/tseemann/snippy) | 4.0.2 | Mapping + Phylogenetics, Genome Annotation | Rapid bacterial SNP calling pipeline |
 | [IQ-TREE 2](http://www.iqtree.org/) | 2.4.0 | Phylogenetics | Efficient phylogenetic tree reconstruction |
 | [Gubbins](https://github.com/sanger-pathogens/gubbins) | 3.3.x | Phylogenetics | Detect recombination in bacterial genomes (`conda activate gubbins-env`) |
-| [FastBAPS](https://github.com/gtonkinhill/fastbaps) | — | Phylogenetics | Bayesian clustering |
+| [FastBAPS](https://github.com/gtonkinhill/fastbaps) | Latest | Phylogenetics | Bayesian clustering |
 | [FigTree](http://tree.bio.ed.ac.uk/software/figtree/) | 1.4.4 | Phylogenetics | Tree visualization software |
 | [ETE Toolkit](http://etetoolkit.org/) | 3.1.3 | Phylogenetics | Python framework for tree analysis (`conda activate ete3-env`) |
 | [Unicycler](https://github.com/rrwick/Unicycler) | 0.5.1 | Assembly Comparison | Hybrid assembler for bacterial genomes |
