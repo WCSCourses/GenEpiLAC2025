@@ -16,7 +16,7 @@
 | [FigTree](http://tree.bio.ed.ac.uk/software/figtree/) | 1.4.4 | Phylogenetics | Tree visualization software |
 | [ETE Toolkit](http://etetoolkit.org/) | 3.1.3 | Phylogenetics | Python framework for tree analysis (`conda activate ete3-env`) |
 | [Unicycler](https://github.com/rrwick/Unicycler) | 0.5.1 | Assembly Comparison | Hybrid assembler for bacterial genomes |
-| [Dragonflye](https://github.com/rpetit3/dragonflye) | 1.2.1 | Assembly Comparison | Nanopore-based genome assembly (`conda activate dragonflye-env`, Docker also available) |
+| [Dragonflye](https://github.com/rpetit3/dragonflye) | 1.2.1 | Assembly Comparison | Nanopore-based genome assembly (`conda activate dragonflye-env`, for Docker use directory `cd dragonflye-docker` and `docker run --rm dragonflye:conda --help `|
 | [QUAST](http://quast.sourceforge.net/) | 5.3.0 | Assembly Evaluation | Quality assessment of genome assemblies (`conda activate quast-env`) |
 | [NUCmer (MUMmer)](https://github.com/mummer4/mummer) | 3.23 | Assembly Comparison | Whole-genome alignment tool |
 | [Google Chrome](https://www.google.com/chrome/) / [Firefox](https://www.mozilla.org/firefox/) | Latest | Web Tools | Pre-installed for accessing online tools |
