@@ -122,7 +122,6 @@ CostaRica_assembly.stats %>%
 
 ggsave(paste0("Assembly.Type.+.readinput.by.perc-genome-rec.png"), units='mm', width=120, height=90, device='png', dpi=300)
 ```
-```
 
 \
 \
@@ -161,6 +160,21 @@ NULL
 
 ggsave(paste0("Student.by.Contig.count.png"), units='mm', width=110, height=140, device='png', dpi=900)
 
+
+ CostaRica_assembly.stats %>%
+  arrange((`Genome fraction (% of reference)`)) %>%
+  mutate(student_method=factor(`student_method`, levels=unique(`student_method`))) %>%
+  ggplot(aes(y=`student_method`, x=`Genome fraction (% of reference)`, color=`Student Name`)) +
+  #geom_quasirandom(width=0.4, alpha=0.75, groupOnX=F) +
+  geom_quasirandom() +
+  #geom_barh(width=0.5, stat='identity') + 
+  theme_bw() + theme(legend.position = 'none') + 
+  theme.text.size + 
+  geom_text(aes((`Genome fraction (% of reference)`+10), `student_method`,label=`Student Name`), size=2.5) +
+  labs(y="Student", x="# Contigs", title="Genome fraction (% of reference)") +
+  #coord_cartesian(xlim=c(1,500)) #+ scale_x_log10() +
+NULL
+ggsave(paste0("Student.by.perc-genome-recovered.png"), units='mm', width=110, height=140, device='png', dpi=900)
 ```
 
 

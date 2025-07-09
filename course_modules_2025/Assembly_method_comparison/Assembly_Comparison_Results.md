@@ -56,11 +56,17 @@
 
 <img src=Student.by.N50.png width="70%" height="1000%">
 
+<br>
+
+
+<img src=Student.by.perc-genome-recovered.png width="70%" height="1000%">
 
 <br>
 
 <img src=Student.by.Contig.count.png width="70%" height="1000%">
 
 <br>
+
+
 
 <br>
