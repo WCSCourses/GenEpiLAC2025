@@ -14,18 +14,18 @@
 ## Class Results
 
 
-<img src=Assembly.Methods.by.Contig.count.png width="75%" height="75%">
+<img src=Assembly.Methods.by.Contig.count.png width="100%" height="100%">
 
 
 <br>
 
 
-<img src=Assembly.Methods.by.N50.png width="75%" height="75%">
+<img src=Assembly.Methods.by.N50.png width="100%" height="100%">
 
 
 <br>
 
-<img src=Assembly.Methods.by.Missassembly.count.png width="75%" height="75%">
+<img src=Assembly.Methods.by.Missassembly.count.png width="100%" height="1000%">
 
 <br>
 
