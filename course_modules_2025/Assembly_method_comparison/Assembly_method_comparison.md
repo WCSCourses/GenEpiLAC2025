@@ -123,7 +123,7 @@ In this directory, you should have 3 versions of 6 main files:
 # Assembly Methods
 
 ## Short read only assembly (Unicycler)
-For assembly of short (Illumina) reads, we will use `Unicycler`. With short read data, `Unicycler` acts as wrapper script for the `SPAdes` assembler, and will produce an assembly with settings optimised for bacteria. 
+For assembly of short (Illumina) reads, we will use `Unicycler` (https://github.com/rrwick/Unicycler). With short read data, `Unicycler` acts as wrapper script for the `SPAdes` assembler, and will produce an assembly with settings optimised for bacteria. 
 
 <br>
 
@@ -237,11 +237,11 @@ Your instructor will tell you which one you should run.
 <br>
 
 ## Long Read only assembly (Dragonflye)
-`Dragonflye` is an optimised pipeline written specifically for quickly assembling bacterial assemblies from Oxford Nanopore long read data. It uses the long read assembler `flye`, and has a number of speed optimisations to make it run efficiently. 
+`Dragonflye` (https://github.com/rpetit3/dragonflye) is an optimised pipeline written specifically for quickly assembling bacterial assemblies from Oxford Nanopore long read data. It uses the long read assembler `flye`, and has a number of speed optimisations to make it run efficiently. 
 
 <br>
 
-Dragonflye is a very useful tool for running long read assembly, and is generally very easy to install - to get `dragonflye` running in the virtual machine, it has been installed using a tool called `mamba` (similar to `conda`). 
+Dragonflye is a very useful tool for running long read assembly, and is generally very easy to install - to get `dragonflye` running in the virtual machine, it has been installed using a tool called `mamba` (https://github.com/mamba-org/mamba)(similar to `conda`). 
 
 Unfortunately, this year we have encountered a rare software version issue conflict between the Virtual Machine and dragonflye. We will therefore not be able to run dragonflye as part of this exercise. However, the commands to run this are below:
 
@@ -377,7 +377,7 @@ To evaluate how well our assembly has performed, we can use a number of tools to
 
 <br>
 
-We will use a tool called `quast` to evaluate our assembly, including with respect to the reference genome. 
+We will use a tool called `quast` (https://github.com/ablab/quast) to evaluate our assembly, including with respect to the reference genome. 
 
 
 <br>

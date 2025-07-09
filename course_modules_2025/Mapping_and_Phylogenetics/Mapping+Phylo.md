@@ -212,7 +212,7 @@ The folder contains:
 <br>
 
 ## Perform mapping of reads to reference genome using snippy
-`Snippy` is an integrated pipeline that maps reads to a reference genome and produces a range of outputs. For the purposes of this tutorial, we will use `snippy` to organise analyse our genomes.
+`Snippy` (https://github.com/tseemann/snippy) is an integrated pipeline that maps reads to a reference genome and produces a range of outputs. For the purposes of this tutorial, we will use `snippy` to organise analyse our genomes.
 
 You can view the options for snippy using the following code:
 ```
@@ -489,7 +489,7 @@ Now that we have a clean multiple sequence alignment, we are now going to use `I
 
 Calculating a phylogeny on whole genome sequences can be very time consuming. We can speed this up by only using the variable sites (SNPs). However, we need to be aware that only including variable sites can affect the evolutionary rate estimates made by phylogenetics software - therefore, we need to account for the sites we remove in our analysis.
 
-We will use `snp-sites` to do this. You can view the options for `snp-sites`
+We will use `snp-sites` (https://github.com/sanger-pathogens/snp-sites) to do this. You can view the options for `snp-sites`
 ```
 snp-sites
 ```
@@ -507,7 +507,7 @@ We can also use snp-sites to find out how many invariant sites were removed (and
 <br>
 
 ### Calculate a phylogenetic tree from the SNPs using `IQ-TREE2`
-We can look at the options for `IQ-TREE` below
+We can look at the options for `IQ-TREE` (https://github.com/iqtree/iqtree2) below
 ```
 iqtree -h
 ```
@@ -557,7 +557,7 @@ cat clean.full.SNPs.aln.tre
 
 But this is not very helpful - it's just raw text in 'newick' format. 
 
-Instead, we can visualise this using `figtree`
+Instead, we can visualise this using `figtree` (http://tree.bio.ed.ac.uk/software/figtree/).
 ```
 figtree &
 ```
@@ -654,7 +654,7 @@ Click `continue` to view the tree
 <br>
 
 ## Accounting for recombination with `gubbins`
-We can use `gubbins` to infer recombining sites by looking for increased SNP density that occurs in specific ancestral nodes
+We can use `gubbins` (https://github.com/nickjcroucher/gubbins) to infer recombining sites by looking for increased SNP density that occurs in specific ancestral nodes
 
 `gubbins` has been installed using `conda`. We must activate the relavent conda environment before running any commands using `gubbins`.
 
@@ -803,7 +803,7 @@ Phandango should automatically display blocks of recombination in <span style="c
 <br>
 
 ## Clustering genomes using `fastBAPS`
-We can cluster genomes for epidemiology in a variety of ways, depending on the goal and genetic distances involved. Here will use `fastBAPS`, which is an optimised  implementation of the original `hierBAPS` algorithm for hierarchical partitioning and Bayesian clustering of genomes. `fastBAPS` can be run in `R` as well as from the command line.
+We can cluster genomes for epidemiology in a variety of ways, depending on the goal and genetic distances involved. Here will use `fastBAPS` (https://github.com/gtonkinhill/fastbaps), which is an optimised  implementation of the original `hierBAPS` algorithm for hierarchical partitioning and Bayesian clustering of genomes. `fastBAPS` can be run in `R` as well as from the command line.
 
 In the command below, we:
 * specify a set of SNPs/alleles for use by the model. 
