@@ -64,11 +64,11 @@ Aims of this exercise:
 
 ## An outbreak sample
 
-In this module, we will assemble the genome of a strain of *Staphylococcus aureus*, 16B, which was sequenced as part of an MRSA outbreak investigation (Köser _et al_., 2012, N Engl J Med. 366:2267-75). Through multi locus sequence typing (MLST), the isolate was identified as belonging to sequence type 1 (ST1), a lineage of *S. aureus* more frequently associated with community infections rather than hospital-acquired infections. ST1 strains typically exhibit lower antibiotic resistance compared to those commonly found in hospitals.
+In this module, we will assemble the genome of a strain of *Staphylococcus aureus*, , which was sequenced as part of an MRSA outbreak investigation (Köser _et al_., 2012, N Engl J Med. 366:2267-75). Through multi locus sequence typing (MLST), the isolate was identified as belonging to sequence type 1 (ST1), a lineage of *S. aureus* more frequently associated with community infections rather than hospital-acquired infections. ST1 strains typically exhibit lower antibiotic resistance compared to those commonly found in hospitals.
 
 ## Analyses
 
-We will conduct a comprehensive analysis starting with querying the resistome of 16B against a resistance gene database. Additionally, we will perform genome assembly and comparative analysis against the chromosomes of two other ST1 isolates: MSSA476, isolated in the UK (Holden _et al_., 2004, PNAS. 101:9786-91), and MW2, isolated in the USA (Baba _et al_., 2002, Lancet 359:1819-27). Both MSSA476 and MW2 have been fully sequenced, annotated, and deposited in EMBL, providing valuable reference genomes for our comparative genomic study.
+We will conduct a comprehensive analysis starting with querying the resistome of  against a resistance gene database. Additionally, we will perform genome assembly and comparative analysis against the chromosomes of two other ST1 isolates: MSSA476, isolated in the UK (Holden _et al_., 2004, PNAS. 101:9786-91), and MW2, isolated in the USA (Baba _et al_., 2002, Lancet 359:1819-27). Both MSSA476 and MW2 have been fully sequenced, annotated, and deposited in EMBL, providing valuable reference genomes for our comparative genomic study.
 
 <br>
 
@@ -81,13 +81,13 @@ We will conduct a comprehensive analysis starting with querying the resistome of
 ## The research questions
 
 The three ST1 isolates are closely related but exhibit different antibiotic resistance profiles:
-- 16B is resistant to penicillin, fusidic acid, methicillin and erythromycin
+-  is resistant to penicillin, fusidic acid, methicillin and erythromycin
 - MSSA476 is resistant to penicillin and fusidic acid
 - MW2 is resistant to penicillin and methicillin
 
 <br>
 
-**Using a comparative genomic approach we will identify regions of difference, the genetic basis of the antibiotic resistance in 16B, and the genetic mechanisms that drive the evolution of resistance.**
+**Using a comparative genomic approach we will identify regions of difference, the genetic basis of the antibiotic resistance in , and the genetic mechanisms that drive the evolution of resistance.**
 
 <br>
 
@@ -260,7 +260,7 @@ Repeat the `ariba` run on the MW2 fastq files.
 
 - Specify the directory containing the ResFinder database files
     - `out.resfinder.prepareref`
-- Specify the 16B forward and reverse fastq files
+- Specify the MW2 forward and reverse fastq files
     - `MW2_1.fastq MW2_2.fastq`
 - Specify the the directory containing the results
     - `MW2_out.run`
@@ -285,7 +285,7 @@ Repeat the `ariba` run on the MSSA476 fastq files.
 
 - Specify the directory containing the ResFinder database files
     - `out.resfinder.prepareref`
-- Specify the 16B forward and reverse fastq files
+- Specify the MSSA476 forward and reverse fastq files
     - `MSSA476_1.fastq MSSA476_2.fastq`
 - Specify the the directory containing the results
     - `MSSA476_out.run`
