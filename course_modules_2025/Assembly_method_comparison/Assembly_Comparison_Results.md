@@ -37,12 +37,12 @@
 
 ## Results by Assembler and input
 
-<img src=Assembly.Type.by.N50.png width="100%" height="100%">
+<img src=Assembly.Type.by.N50.png width="100%" height="1000%">
 
 <br>
 
 
-<img src=Assembly.Type.+.readinput.by.N50.png width="100%" height="100%">
+<img src=Assembly.Type.+.readinput.by.N50.png width="1000%" height="1000%">
 
 
 <br>
@@ -51,12 +51,12 @@
 
 ## Results by Student
 
-<img src=Student.by.N50.png width="70%" height="75%">
+<img src=Student.by.N50.png width="70%" height="1000%">
 
 
 <br>
 
-<img src=Student.by.Contig.count.png width="70%" height="75%">
+<img src=Student.by.Contig.count.png width="70%" height="1000%">
 
 <br>
 
