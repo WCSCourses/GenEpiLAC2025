@@ -107,6 +107,24 @@ CostaRica_assembly.stats %>%
 ggsave(paste0("Assembly.Type.+.readinput.by.N50.png"), units='mm', width=120, height=90, device='png', dpi=300)
 ```
 \
+```{r}
+CostaRica_assembly.stats %>%
+  arrange((`Genome fraction (% of reference)`)) %>%
+  mutate(method_full=factor(`Assembly Type (short/long/hybrid)`, levels=unique(`Assembly Type (short/long/hybrid)`))) %>%
+  filter(!is.na(N50))  %>%
+  ggplot(aes(y=method_full, x=`Genome fraction (% of reference)`, color=factor(`Number of long reads (if used)`))) +
+  #ggplot(aes(y=method_full, x=`N50`)) +
+  geom_quasirandom(width=0.4, alpha=0.75, groupOnX=F) +
+  theme_bw() + theme(legend.position = 'bottom') + 
+  theme.text.size + 
+  facet_grid(`Assembler (Unicycler/Dragonflye)`~.) +
+  labs(y="Assembly Type", x="N50", title="% ref genome recovered for each Assembly Type", color="# Long Reads")
+
+ggsave(paste0("Assembly.Type.+.readinput.by.perc-genome-rec.png"), units='mm', width=120, height=90, device='png', dpi=300)
+```
+```
+
+\
 \
 
 Plot N50 by person

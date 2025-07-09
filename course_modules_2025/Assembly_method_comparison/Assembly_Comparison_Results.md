@@ -45,6 +45,9 @@
 <img src=Assembly.Type.+.readinput.by.N50.png width="1000%" height="1000%">
 
 
+<img src=Assembly.Type.+.readinput.by.perc-genome-rec.png width="1000%" height="1000%">
+
+
 <br>
 
 <br>
