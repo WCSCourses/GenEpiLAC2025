@@ -29,7 +29,7 @@ Import googlesheet
 gs4_deauth()
 #CostaRica_assembly.stats <- read_sheet("https://docs.google.com/spreadsheets/d/1CEDScAVSXuboNu-K_-lZzkPnk9woO_3MFRZ8zgWG3c0/edit?usp=sharing", sheet="Instructor_Testing")
 
-CostaRica_assembly.stats <- read_sheet("https://docs.google.com/spreadsheets/d/1CEDScAVSXuboNu-K_-lZzkPnk9woO_3MFRZ8zgWG3c0/edit#gid=0", sheet="Student_Results")
+CostaRica_assembly.stats <- read_sheet("https://docs.google.com/spreadsheets/d/1nd69T_NjmFiJnRwIIMx1pRnRgq0uE_fp4CZ3jDB2S_Y/edit?usp=sharing", sheet="Student_Results")
 
 CostaRica_assembly.stats <- CostaRica_assembly.stats %>%
   filter(!is.na(`Student Name`))
