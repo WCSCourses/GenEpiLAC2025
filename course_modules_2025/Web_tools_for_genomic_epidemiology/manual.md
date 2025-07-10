@@ -1,6 +1,6 @@
 <img src="https://coursesandconferences.wellcomeconnectingscience.org/wp-content/themes/wcc_courses_and_conferences/dist/assets/svg/logo.svg" width="200" height="200">
 
-[<<< Go back to Manual Contents Page](https://github.com/WCSCourses/GenEpiLAC2025/blob/main/course_modules_2025/Manual_main.md)
+[<<< Go back to Manual Contents Page](https://github.com/WCSCourses/GenEpiLAC2024/blob/main/Manuals/Manual_main.md)
 
 # Web tools for genomic epidemiology
 
@@ -39,7 +39,7 @@ Aim: To use web and mobile tools for the collection of epi data in the field, in
 
 *Note: This exercise is a work of fiction. Any resemblance to a real life situation is purely coincidental.*
 
-During January and February 2024, *Klebsiella pneumoniae* was isolated from clinical samples of 34 patients at several hospitals and clinics in and around San Jose, Costa Rica. Approximately half of the patients had presented with urinary tract infections (UTIs) although a variety of other infection types were seen including three sepsis cases. One colony from each confirmed case was sequenced on an Illumina MiSeq. An epidemiological investigation revealed that some of the culture-confirmed cases ***were faculty at a Universidad de los Estudios para la Pura Vida (UEPV) in San Jose***. This suggested that the campus may be the central point of transmission in this outbreak. The epidemiological and demographic data is summarised in the file [epi_data.csv](https://drive.google.com/file/d/1bQzfkoO-z8YXEZ9sdCPuv59qHK9tKwzf/view?usp=sharing).
+During January and February 2025, *Klebsiella pneumoniae* was isolated from clinical samples of 34 patients at several hospitals and clinics in and around San Jose, Costa Rica. Approximately half of the patients had presented with urinary tract infections (UTIs) although a variety of other infection types were seen including three sepsis cases. One colony from each confirmed case was sequenced on an Illumina MiSeq. An epidemiological investigation revealed that some of the culture-confirmed cases ***were faculty at a Universidad de los Estudios para la Pura Vida (UEPV) in San Jose***. This suggested that the campus may be the central point of transmission in this outbreak. The epidemiological and demographic data is summarised in the file [epi_data.csv](https://drive.google.com/drive/folders/1LH2beqwn5IeB7veScPLrlI6qmbgAaM2J?usp=sharing).
 
 **Following the confirmation of the 34 positive cases of *K. pneumoniae* ST258 infections, the management of UEPV denied that the Klebsiella pneumoniae could have spread within the campus and declared that deep cleaning of the was taking place regularly.**
 
@@ -64,7 +64,7 @@ Make sure your phone is connected to WiFi. Open the **Epicollect5** app on your 
 
 ![](img/epicollect_logo.jpeg)
 
-Add the project **San Jose 2024 K pneumoniae Outbreak** by clicking on `+ ADD PROJECT` and typing into the search box --you will need to be connected to WiFi.
+Add the project **San Jose 2025 K pneumoniae Outbreak** by clicking on `+ ADD PROJECT` and typing into the search box --you will need to be connected to WiFi.
 
 ![](img/epicollect_add_project.png)
 
@@ -75,7 +75,7 @@ Using the plan of the UEPV campus provided, walk to the location of your collect
 
 ![](img/location_map.png)
 
-Open the **San Jose 2024 K pneumoniae Outbreak** project and add an entry. Follow the form to collect a sample and associated metadata.
+Open the **San Jose 2025 K pneumoniae Outbreak** project and add an entry. Follow the form to collect a sample and associated metadata.
 
 ![](img/epicollect_add_entry2.png)
 
@@ -89,7 +89,7 @@ One of the pair members only. **Upload your entry (and image)** to the Epicollec
 
 Submit your sample to the instructor, which will be sent to the reference lab for culture confirmation.
 
-Once all entries are uploaded by the disease detectives we will take a look at the data together on [**https://five.epicollect.net/project/san-jose-2024-k-pneumoniae-outbreak**](https://five.epicollect.net/project/san-jose-2024-k-pneumoniae-outbreak)
+Once all entries are uploaded by the disease detectives we will take a look at the data together on [**https://five.epicollect.net/project/san-jose-2025-k-pneumoniae-outbreak**](https://five.epicollect.net/project/san-jose-2025-k-pneumoniae-outbreak)
 
 Answer the following questions:
 
@@ -98,7 +98,7 @@ Answer the following questions:
 
 ## 2. Analyse genomes with PathogenWatch
 
-The reference lab has sent you the culture results in an Excel file called ([`lab_results.xlsx`](https://docs.google.com/spreadsheets/d/1kNerfOJUf-93jSLKioGHKuao4J7DHJPC/edit?usp=sharing&ouid=109151314762498412799&rtpof=true&sd=true)). The lab reported that **2 out of 13** water samples from the UEPV campus were positive for *K. pneumoniae*. **This immediately prompted the closure of the 2 water sources and internal investigation.**
+The reference lab has sent you the culture results in an Excel file called ([`lab_results.xlsx`](https://drive.google.com/drive/folders/1LH2beqwn5IeB7veScPLrlI6qmbgAaM2J?usp=sharing)). The lab reported that **2 out of 13** water samples from the UEPV campus were positive for *K. pneumoniae*. **This immediately prompted the closure of the 2 water sources and internal investigation.**
 
 > Does this confirm that the source of the outbreak can be found in the campus of UEPV?
 
@@ -112,7 +112,7 @@ Click on `Single Genome FASTAs`
 
 ![](img/pathogenwatch_singlefasta.png)
 
-Drag and Drop provided fasta files ([file1](https://drive.google.com/file/d/1c73Bt4W108ww0_zmJHugYJiR6Bg5SGoc/view?usp=sharing) and [file2](https://drive.google.com/file/d/1VGjW_8YmmUo_Lg1S_AJUhHWhUbKLtSqm/view?usp=sharing)) into the browser and wait for analysis to finish
+Drag and Drop provided fasta files ([file1](https://drive.google.com/drive/folders/1LH2beqwn5IeB7veScPLrlI6qmbgAaM2J?usp=sharing) and [file2](https://drive.google.com/drive/folders/1LH2beqwn5IeB7veScPLrlI6qmbgAaM2J?usp=sharing)) into the browser and wait for analysis to finish
 
 ![](img/pathogenwatch_dragdrop.png)
 
@@ -136,7 +136,7 @@ Click on MLST (Pasteur). This will download a csv file with the results.
 
 ![](img/pathogenwatch_mlst.png)
 
-You should now be able to find the [`mlst-Pasteur.csv`](https://drive.google.com/file/d/1MGp4g_lTXBoNWno_VO44PVNuTGxCbiqq/view?usp=sharing) in your `Downloads` folder.
+You should now be able to find the [`mlst-Pasteur.csv`](https://drive.google.com/drive/folders/1LH2beqwn5IeB7veScPLrlI6qmbgAaM2J?usp=sharing) in your `Downloads` folder.
 
 ## 3. Merge data with Data-flo
 
@@ -144,23 +144,23 @@ You should now be able to find the [`mlst-Pasteur.csv`](https://drive.google.com
 
 *Note: you need to sign-up for data-flo and Microreact. See instructions in the [Resources](#resources) section. Creating your own account will allow you to manage and edit your projects.*
 
-A maximum likelihood phylogenetic tree ([`tree.nwk`](https://drive.google.com/file/d/1iE7V2p3Ga-Br6RfL3V32Etn7IPvUglUE/view?usp=drive_link)) was inferred from the genomes of the 34 clinical samples and 2 environmental (water) samples. Six genomes from a previous outbreak (Mar-Apr 2022) were also included in the tree inference and their associated data added to the [`epi_data.csv`](https://drive.google.com/file/d/1bQzfkoO-z8YXEZ9sdCPuv59qHK9tKwzf/view?usp=drive_link) file.
+A maximum likelihood phylogenetic tree ([`tree.nwk`](https://drive.google.com/drive/folders/1LH2beqwn5IeB7veScPLrlI6qmbgAaM2J?usp=sharing)) was inferred from the genomes of the 34 clinical samples and 2 environmental (water) samples. Six genomes from a previous outbreak (Mar-Apr 2022) were also included in the tree inference and their associated data added to the [`epi_data.csv`](https://drive.google.com/drive/folders/1LH2beqwn5IeB7veScPLrlI6qmbgAaM2J?usp=sharing) file.
 
 The disease detectives now have the information needed for the investigation in the following formats:
 
--   [`epi_data.csv`](https://drive.google.com/file/d/1bQzfkoO-z8YXEZ9sdCPuv59qHK9tKwzf/view?usp=drive_link) Epi data from 34 clinical cases and 6 cases from previous outbreak
+-   [`epi_data.csv`](https://drive.google.com/drive/folders/1LH2beqwn5IeB7veScPLrlI6qmbgAaM2J?usp=sharing) Epi data from 34 clinical cases and 6 cases from previous outbreak
 -   `Epicollect project` Metadata of 13 water sources from the UEPV campus
--   [`lab_results.xlsx`](https://docs.google.com/spreadsheets/d/1kNerfOJUf-93jSLKioGHKuao4J7DHJPC/edit?usp=drive_link&ouid=109151314762498412799&rtpof=true&sd=true) Culture and serotyping results
--   [`mlst-Pasteur.csv`](https://drive.google.com/file/d/1MGp4g_lTXBoNWno_VO44PVNuTGxCbiqq/view?usp=drive_link) MLST results from PathogenWatch
--   [`tree.nwk`](https://drive.google.com/file/d/1iE7V2p3Ga-Br6RfL3V32Etn7IPvUglUE/view?usp=drive_link) Phylogenetic tree of 34 clinical cases, 2 culture-positive water samples, and 6 cases from previous outbreak
+-   [`lab_results.xlsx`](https://drive.google.com/drive/folders/1LH2beqwn5IeB7veScPLrlI6qmbgAaM2J?usp=sharing) Culture and serotyping results
+-   [`mlst-Pasteur.csv`](https://drive.google.com/drive/folders/1LH2beqwn5IeB7veScPLrlI6qmbgAaM2J?usp=sharing) MLST results from PathogenWatch
+-   [`tree.nwk`](https://drive.google.com/drive/folders/1LH2beqwn5IeB7veScPLrlI6qmbgAaM2J?usp=sharing) Phylogenetic tree of 34 clinical cases, 2 culture-positive water samples, and 6 cases from previous outbreak
 
-The files are located in [**this link**](https://drive.google.com/drive/folders/1LH2beqwn5IeB7veScPLrlI6qmbgAaM2J?usp=drive_link).
+The files are located in [**this link**](https://drive.google.com/drive/folders/1LH2beqwn5IeB7veScPLrlI6qmbgAaM2J?usp=sharing).
 
 We will combine data from these different sources with a data-flo workflow that takes the files above and the data from the Epicollect project as input, and creates as an output a Microreact project where the data can be visualised.
 
-Open the data-flo workflow ([**[https://data-flo.io/run?wbhznSXSn3qAomUnGrXesx](https://www.data-flo.io/run/7QcjMyGh55rqckNjbkYv3h)**]
+Open the data-flo workflow ([**https://www.data-flo.io/run/is2MaZpxgjgT1o1uDkff8g**](https://www.data-flo.io/run/is2MaZpxgjgT1o1uDkff8g))
 
-![](img/dataflo_2024.png)
+![](img/dataflo_2025.png)
 
 Copy the workflow to your own dataflo account.
 
@@ -190,7 +190,7 @@ Now lets go to the implementation page by clicking on the `RUN` option.
 
 ![](img/dataflo_implementation.png)
 
-To run the workflow paste the url of the Epicollect5 project ([**https://www.data-flo.io/run/7QcjMyGh55rqckNjbkYv3h**](https://www.data-flo.io/run/7QcjMyGh55rqckNjbkYv3h)) and upload the files, found [`here`](https://drive.google.com/drive/folders/1zcrHcTf2ZXY_CHFcOSyTtLFVgJjrnXgl?usp=drive_link)`(file1 and file2)`.
+To run the workflow paste the url of the Epicollect5 project ([**https://www.data-flo.io/run/jPZFNdqdkixkRnyuDkH2ti-san-jose-2025-k-pneumoniae**](https://www.data-flo.io/run/jPZFNdqdkixkRnyuDkH2ti-san-jose-2025-k-pneumoniae)) and upload the files, found [`here`](https://drive.google.com/drive/folders/1LH2beqwn5IeB7veScPLrlI6qmbgAaM2J?usp=sharing)`(file1 and file2)`.
 
 ![](img/dataflo_run2.png)
 
@@ -238,7 +238,8 @@ Now Select "Categorical" from the `Colour Palette` option. Next Select "qualitat
 
 Add the columns "Workplace" and "Workplace details" as metadata blocks. For this, select the slider icon from top right of the tree panel, then, click on the `Metadata blocks` button. Finally, select "Workplace" and "Workplace details" from the list of options.
 
-![](img/microreact_metadata_blocks.png)
+![](img/
+)
 
 Now eexplore the microreact you just created and try to answer the following questions:
 
@@ -291,7 +292,7 @@ Useful websites to work with web colours:
 
 ### 1. Download data from the Epicollect5 project on the web.
 
-a.  Go to the [**epicollect link provided above**](https://five.epicollect.net/project/san-jose-2024-k-pneumoniae-outbreak).
+a.  Go to the [**epicollect link provided above**](https://five.epicollect.net/project/san-jose-2025-k-pneumoniae-outbreak).
 
 b.  Select `VIEW DATA`.
 
@@ -319,7 +320,7 @@ d.  Select `Browse Files`
 
 ![](img/microreact_browse_files.png)
 
-e.  Choose the files [`tree.nwk`](https://drive.google.com/file/d/1iE7V2p3Ga-Br6RfL3V32Etn7IPvUglUE/view?usp=drive_link) and [`epi_data.csv`](https://drive.google.com/file/d/1bQzfkoO-z8YXEZ9sdCPuv59qHK9tKwzf/view?usp=drive_link), and click on the `Open` button (These files were downloaded in the [dataflo](#merge-data-with-data-flo) section).
+e.  Choose the files [`tree.nwk`](https://drive.google.com/drive/folders/1LH2beqwn5IeB7veScPLrlI6qmbgAaM2J?usp=sharing) and [`epi_data.csv`](https://drive.google.com/drive/folders/1LH2beqwn5IeB7veScPLrlI6qmbgAaM2J?usp=sharing), and click on the `Open` button (These files were downloaded in the [dataflo](#merge-data-with-data-flo) section).
 
 f.  Click on `Continue` in the next prompts.
 
@@ -391,4 +392,4 @@ j.  You should get a screen like this!
 <br>
 <br>
 
-[<<< Go back to Manual Contents Page](https://github.com/WCSCourses/GenEpiLAC2025/blob/main/course_modules_2025/Manual_main.md)
+[<<< Go back to Manual Contents Page](https://github.com/WCSCourses/GenEpiLAC2025/blob/main/Manuals/Manual_main.md)
