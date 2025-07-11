@@ -130,7 +130,7 @@ For assembly of short (Illumina) reads, we will use `Unicycler` (https://github.
 In the command below we:
 
 - Allocate 4 CPUs to the assembler 
-    - `-t 4`
+    - `-t 4` (note that this is limited to 4 within the VM, but adding more CPUs may increase the speed of the run).
 - Specify the Illumina forward and reverse reads to use 
     - `-1 <fastq>` and `-2 <fastq>`
 - Specify a directory to output files to
