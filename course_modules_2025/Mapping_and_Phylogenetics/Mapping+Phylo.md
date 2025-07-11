@@ -222,7 +222,17 @@ snippy -h
 
 <br>
 
-Now run `snippy` on the pair of fastqs (for this exercise we’ll call this ‘new-sample-1’)
+Now run `snippy` on the pair of fastqs (for this exercise we’ll call this ‘new-sample-1’). In the following command, we:
+ - Specify a directory for the results to go `--outdir new-sample-1`
+ - Specify the names of the forward `--R1 new-sample-1_1.fastq.gz` and reverse `--R2 new-sample-1_2.fastq.gz` reads
+ - Specify the name and location of the reference genome `--ref references/Vibrio_cholerae_O1_biovar_eltor_str_N16961_v2.fa`
+ - Specify the number of cpus available `--cpus 4` (note this can be tuned, but is limited to 4 within the VM)
+ - Specify the maximum amount of memory (4 GB) to be used `--ram 4` (note this can be tuned, but is limited to 4 GB within the VM)
+ - Allow the command to overwrite previous data `--force` (useful if you have already run the same command during practices)
+ - Ask `snippy` not to report everything it is doing to the command line `--quiet`
+
+ <br>
+
 ```
 snippy --outdir new-sample-1 --R1 new-sample-1_1.fastq.gz --R2 new-sample-1_2.fastq.gz --ref references/Vibrio_cholerae_O1_biovar_eltor_str_N16961_v2.fa --cpus 4 --ram 4 --force --quiet
 ```
@@ -446,7 +456,12 @@ ls -lh old.snippy.runs_2024
 
 <br>
 
-Now lets use `snippy-core` to summarise all these genomes along with the new ones and create a multiple sequence alignment
+Now lets use `snippy-core` to summarise all these genomes along with the new ones and create a multiple sequence alignment. In the following command, we:
+
+ - Specify the name and location of the reference genome `--ref references/Vibrio_cholerae_O1_biovar_eltor_str_N16961_v2.fa`
+ - Specify the location of all the snippy runs we want to include in the analysis.
+
+<br>
 
 ```
 snippy-core --ref references/Vibrio_cholerae_O1_biovar_eltor_str_N16961_v2.fa old.snippy.runs_2024/* new-sample-1 new-sample-2 CTMA_1441.short CTMA_1441.long_polish CTMA_1441.long_nopolish
@@ -495,7 +510,12 @@ snp-sites
 ```
 ![snp-sites.1](snp-sites.help__2024.png)
 
-First, remove all the invariant sites and create a SNP-only multiple sequence alignment.
+First, remove all the invariant sites and create a SNP-only multiple sequence alignment. In the following command, we:
+ - Specify the name of an output file `-o clean.full.SNPs.aln`
+ - Specify the name of an alignment we want to process `clean.full.aln`
+
+ <br>
+
 ```
 snp-sites -o clean.full.SNPs.aln clean.full.aln
 ```
@@ -519,9 +539,10 @@ In the command below, we:
  - specify the multiple sequence alignment using `-s clean.full.SNPs.aln`
  - ask `IQ-TREE` to take account of missing invariant sites using `-fconst $(snp-sites -C clean.full.aln)`
  - specify an evolutionary model we want `IQ-TREE` to use `-m GTR+F+I`
- - tell `IQ-TREE` to use a maximum of 2 CPUs (threads) and 2GB memory `-T 2 -mem 2G`
- - perform 1000 ultrafast bootstraps `-B 1000`
- - use sample `M66` as an outgroup `-o M66`
+ - tell `IQ-TREE` to use a maximum of 2 CPUs (threads) `-T 2` (note that this can be tuned, although increasing the number of cores does not always speed things up. In your own work you can test the optimal number of cores using `-T AUTO`).
+ - tell `IQ-TREE` to use a maximum of 2GB memory (note that this can be tuned - increased memory may be required for some runs). 
+ - perform 1000 ultrafast bootstraps `-B 1000`. 
+ - use sample `M66` as an outgroup `-o M66`. Note that this is specific to the current exercise, and does not necessarily always need to be used. 
 
 ```
 iqtree -s clean.full.SNPs.aln -fconst $( snp-sites -C clean.full.aln ) -m GTR+F+I -T 2 -mem 2G -B 1000 -o M66
@@ -679,7 +700,7 @@ run_gubbins.py -h
 
 The following command runs `gubbins` on standard settings, with 4 CPUs.
 
-Note: the `-c` option tells the program to use 4 CPUs. Note: the `-p` option tells the program to name all files with the prefix `gubbins`
+Note: the `-c` option tells the program to use 4 CPUs. Note: the `-p` option tells the program to name all files with the prefix `gubbins`.
 This command can take a few minutes to run.
 
 ```
